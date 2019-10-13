@@ -29,7 +29,7 @@ async def userinfo(ctx, user: discord.Member):
     embed.add_field(name="Status", value=user.status, inline=True)
     embed.add_field(name="Highest role", value=user.top_role)
     embed.add_field(name="Joined", value=user.joined_at)
-    embed.set_thumbnail(url=user.avatar_url)
+    embed.set_thumbnail(url=user.https://cdn.discordapp.com/avatars/523054560097468418/a_02b643d8978048332aeb79c0eb9a56b4.png?size=1024)
     await client.say(embed=embed)
     
 @commands.has_permissions(administrator=True)
